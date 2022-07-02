@@ -1,10 +1,15 @@
-import { useState } from 'react'
+import React, { useState } from 'react'
 
-import logo from './logo.svg'
 import './App.css'
+
+// import { GlobalContext } from './main'
 
 function App() {
     const [count, setCount] = useState(1000000)
+
+    // const value = React.useContext(GlobalContext)
+
+    // console.log(value)
 
     return (
         <div className='App'>
